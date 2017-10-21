@@ -16,7 +16,6 @@ $(function() {
 			function(data) {
 			  var usableData = $.parseJSON(data);
 				for (i = 0; i < usableData['features'].length; i++) {
-          console.log(usableData['features'][i]['geometry']['coordinates']);
 				  var location = usableData['features'][i];
 				  var coords = [location['geometry']['coordinates'][1], location['geometry']['coordinates'][0]];
 
