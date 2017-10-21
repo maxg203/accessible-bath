@@ -3,11 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Accessible Bath</title>
-
-        <!-- Include Bootstap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" title="bootstrap">
-
-        <!-- Include interactive maps -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
         {% load staticfiles %}
@@ -31,6 +27,7 @@
         <!-- Add JavaScript at the end to make sure everything above has loaded properly -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
         <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.1.0/dist/leaflet.markercluster.js"></script>
         <script src="{% static 'tweets/js/main.js' %}"></script>
     </body>
 </html>
